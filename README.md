@@ -63,7 +63,7 @@ Usage:
 Example: 
 
 ```
-./upload.sh datomic datomic-pro 0.9.5359 jar ~/Downloads/datomic-pro-0.9.5359/datomic-pro-0.9.5359.jar private-third-party s3://my_repo_bucket/third-party/
+./upload.sh datomic datomic-pro 0.9.5359 jar ~/Downloads/datomic-pro-0.9.5359/datomic-pro-0.9.5359.jar private-third-party s3://my-private-repo/third-party/
 ```
 
 Please note the repository id must match with `id` specified in `$HOME/.m2/settings.xml`. 
